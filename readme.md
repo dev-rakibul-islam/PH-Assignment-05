@@ -13,3 +13,25 @@
 2. Add text → `p.innerText = "This is new paragraph text";`
 3. Find parent → `const container = document.getElementById("add-here");`
 4. Insert → `container.appendChild(p);`
+
+---
+
+## 📌 3. What is Event Bubbling and how does it work?
+
+Event bubbling = An event starts from the **target element** and bubbles **up the DOM tree**.
+
+**Phases:**
+
+- **Capture phase** → Root → Target
+- **Target phase** → Event fires on target
+- **Bubbling phase** → Event moves upward to parents
+
+---
+
+## 📌 4. What is Event Delegation in JavaScript? Why is it useful?
+
+**Event Delegation** = Attach **one event listener to a parent** instead of many listeners to children.
+
+✔️ Benefits: Cleaner code, better performance, easy to manage dynamic elements.
+
+---

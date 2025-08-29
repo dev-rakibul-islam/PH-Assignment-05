@@ -1,3 +1,5 @@
+# JavaScript DOM & Events – Quick Notes
+
 ## 📌 1. What is the difference between `getElementById`, `getElementsByClassName`, `querySelector`, and `querySelectorAll`?
 
 - **getElementById** → Selects a single element by its `id`.
@@ -35,3 +37,8 @@ Event bubbling = An event starts from the **target element** and bubbles **up th
 ✔️ Benefits: Cleaner code, better performance, easy to manage dynamic elements.
 
 ---
+
+## 📌 5. What is the difference between `preventDefault()` and `stopPropagation()`?
+
+- **preventDefault()** → Stops default browser action (form submit, link redirect, etc).
+- **stopPropagation()** → Stops the event from propagating (bubbling/capturing) in the DOM.
